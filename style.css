@@ -58,12 +58,23 @@
 
 
 .attribution { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 11px; 
     text-align: center; 
+    width: 100%;
+    height: 30px;
+    background-color: rgba(94, 94, 94, 0.3);
+    position: absolute;
+    bottom: 0;
+    color: white
 }
     
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(192, 85%, 84%); 
+    padding-left: 3px;
+    text-decoration: none;
 }
 
 * {
@@ -74,9 +85,10 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 740px;
+    min-height: 100vh;
     font-family: 'Kumbh Sans', sans-serif;
 
 }
