@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-position-x: -500px, 200px;
+    background-position-y: -350px, 350px;
+    background-size: 700px 700px;
+    background-repeat: no-repeat, no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 740px;
+    font-family: 'Kumbh Sans', sans-serif;
+
+}
+
+.card {
+    height: 330px;
+    width: 280px;
+    background-color: white;
+    border-radius: 10px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    justify-content: center;
+
+    
+}
+
+.banner {
+    background-image: url(images/bg-pattern-card.svg);
+    width: 280px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.profileBody {
+    width: 280px;
+    height: 100px;
+    position: absolute;
+    transform: translateY(-50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileBubble {
+    background-color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    
+    
+    
+    
+}
+
+.image {
+    border-radius: 50%;
+    position:absolute;
+    width:90px;
+    height: 90px;
+    transform: translate(-95px, -45px);
+    
+    
+}
+
+.cardBottom {
+    
+    transform: translateY(60px);
+}
+
+.bio {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.bioTop {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.bioBottom {
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    padding: 3px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.age {
+    padding: 3px;
+    font-size: 18px;
+    color: rgb(94, 94, 94);
+    font-weight: 500;
+}
+
+.city {
+    color:rgb(94, 94, 94);
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+
+hr {
+    border: 0.1px solid rgba(94, 94, 94, 0.3);
+}
+
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.followers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.likes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.num {
+    font-weight: 900;
+    padding-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.tag {
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: rgb(94, 94, 94);
+}
