@@ -1,5 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
 
+
+@media (min-width: 481px) {
+    body {
+        background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+        background-color: hsl(185, 75%, 39%);
+        background-position-x: -40%, 120%;
+        background-position-y: 250%, -220%;
+        background-size:60%, 60%;
+        background-attachment: fixed, fixed;
+        background-repeat: no-repeat, no-repeat;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-color: hsl(185, 75%, 39%);
+        background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+        background-position-x: -380px, 250px;
+        background-position-y: -260px, 380px;
+        background-size:600px, 600px;
+        background-attachment: fixed, fixed;
+        background-repeat: no-repeat, no-repeat;
+        min-height: 667px;
+    }
+    
+    
+    .card {
+        max-width: 280px;
+        min-height: 330px;
+    }
+
+    .banner {
+        max-width: 280px;
+        min-height: 120px;
+    }
+    
+    .profileBody {
+        max-width: 280px;
+        min-height: 100px;
+    }
+
+    .profileBubble {
+        max-width: 100px;
+        min-height: 100px;
+    }
+
+    .image {
+        max-width: 90px;
+        min-height: 90px;
+    }
+
+
+
+
+}
+
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
@@ -16,12 +73,6 @@
 
 
 body {
-    background-color: hsl(185, 75%, 39%);
-    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
-    background-position-x: -500px, 200px;
-    background-position-y: -350px, 350px;
-    background-size: 700px 700px;
-    background-repeat: no-repeat, no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,8 +82,8 @@ body {
 }
 
 .card {
-    height: 330px;
-    width: 280px;
+    width: 330px;
+    height: 350px;
     background-color: white;
     border-radius: 10px;
     /* display: flex;
@@ -45,14 +96,14 @@ body {
 
 .banner {
     background-image: url(images/bg-pattern-card.svg);
-    width: 280px;
+    width: 330px;
     height: 120px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
 .profileBody {
-    width: 280px;
+    width: 330px;
     height: 100px;
     position: absolute;
     transform: translateY(-50px);
